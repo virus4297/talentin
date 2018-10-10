@@ -1,0 +1,14 @@
+body{
+	background-color: lightgrey;
+}
+h2,p{
+	font-family: fantasy;
+	font-size: 30px;
+	line-height: 70px;
+	border-bottom:400px;
+	color:rgba(27,18,57)
+	padding:50px;
+}
+img{
+	float: right;
+}
