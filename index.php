@@ -1,8 +1,10 @@
 <?php
+session_start();
 if(isset($_POST['submit'])){
     $username= $_POST['username'];
     $password= $_POST['password'];
-//    echo ($username);
+    
+
     $connection = mysqli_connect('localhost','root','','talentin');
     
     if($connection)
@@ -11,11 +13,19 @@ if(isset($_POST['submit'])){
     else
         die("connection failed"); 
 
-    $query= "INSERT INTO login(username,password) VALUES('$username','$password')";
+    $query= "SELECT * FROM reg where email='$username' and password = '$password'";
+    
     $result1=mysqli_query($connection,$query);
-    if(!$result1){
-        die("data cannot be sent");
+    if(mysqli_num_rows($result1) == 1){
+        $_SESSION['email'] = $username;
+        
+        header('location:homepage.php');
+        
+    } else {
+        header('location:index.php');
+        
     }
+    
 }
 ?>
 
@@ -38,23 +48,24 @@ if(isset($_POST['submit'])){
                     </p>
                 </div>
         
-                <div class="form-group"><p>
+                <div class="form-group">
+                  <p>
                    <label for="Password">Password</label>
                     <input type="password"  name="password" placeholder="Enter password"  class="form-control">
-                    
+                    <p>
                 </div>
-               </p>
+               
 
-</div>
+
                 <br><br><br><br><br><br><br><br>
                 <div class="topcont">
                 <br>
                 <input type="submit" class="btn btn-primary" name="submit" value="submit">
                 <a href="homepage.php"> <input type="button" class="btn btn-primary" value="Guest">
-                   <a href="signup.php"> <input type="button" class="btn btn-primary" value="Register">
+                <a href="signup.php"> <input type="button" class="btn btn-primary" value="Register">
                 
-                </a>
-</a>
+                
+
 </div>
 </form>
 
