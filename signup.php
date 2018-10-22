@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
 <html>
 <head>
 	<title>Sign Up</title>
-	<link rel="stylesheet" type="text/css" href="signup1.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
 </head>
 <body background="talent.png">
 	<div class="topcont">
