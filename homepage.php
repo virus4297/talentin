@@ -39,3 +39,24 @@
 
 </body>
 </html>
+<?php
+    $connection = mysqli_connect('localhost','root','','talentin');
+    
+    if($connection)
+        echo("connected");
+    
+    else
+        die("connection failed"); 
+    $query= "SELECT postcontent,postdate  FROM post ";
+    $result=mysqli_query($connection,$query);
+    while($result1 = mysqli_fetch_object($result)){ 
+        ?>
+        <div class="box enclose"><p>
+        <?php
+        printf("%s (%s)\n",$result1->postcontent,$result1->postdate);  
+        ?>
+</p></div>
+   <?php
+        
+    }
+?>    
