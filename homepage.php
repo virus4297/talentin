@@ -85,11 +85,8 @@ function myFunction() {
 <?php
     $connection = mysqli_connect('localhost','root','','talentin');
     
-    if($connection)
-        echo("connected");
-    
-    else
-        die("connection failed"); 
+    if(!$connection)
+        echo("not connected");
     $query= "SELECT postcontent,postdate  FROM post ";
     $result=mysqli_query($connection,$query);
     while($result1 = mysqli_fetch_object($result)){ 
