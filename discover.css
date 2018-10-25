@@ -45,15 +45,14 @@ body {
 }
 
 .main {
-    margin-left: 60px; /* Same as the width of the sidenav */
+    margin: 50px; /* Same as the width of the sidenav */
+    margin-top: 10px;
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
 
 /* Style the header */
 .header {
-    border: 1px solid rgb(217, 217, 217);
-    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
     background-color: #f1f1f1;
     text-align: center;
