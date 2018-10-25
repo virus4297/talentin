@@ -62,7 +62,7 @@ if(isset($_POST['submit'])){
                 <br>
                 <input type="submit" class="btn btn-primary" name="submit" value="submit">
                 <a href="homepage.php"> <input type="button" class="btn btn-primary" value="Guest">
-                <a href="signup.php"> <input type="button" class="btn btn-primary" value="Register">
+                <a href="signup.php"> <input type="button" class="btn btn-primary" value="Register ">
                 
                 
 
