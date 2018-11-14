@@ -1,11 +1,63 @@
+.main{
+    position: absolute;
+    margin-top: 50px;
+}
+.navibar{
+    position: fixed;
+    right: 0;
+    left: 0px;
+    background: #ffffff;
+}
 body{
     background-size:100%;
 }
+
+.item1 { grid-area: header; }
+.item2 { grid-area: left; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'left left main main right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
 .enclose{
     padding: 10px;
     border: 1px solid rgb(217, 217, 217);
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
     font-size: 15px;
 }
 .grd{
@@ -40,12 +92,14 @@ justify-content: left;
 
 /* Style the top navigation bar */
 .topnav {
+    position: relative;
     overflow: hidden;
     background-color: #0077b5;
 }
 
 /* Style the topnav links */
 .topnav a {
+    position: relative;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -56,6 +110,7 @@ justify-content: left;
 
 /* Change color on hover */
 .topnav a:hover {
+    position: relative;
     background-color: #ddd;
     color: black;
     border-radius: 10px;
@@ -94,7 +149,7 @@ justify-content: left;
 h2{
 	font-family: "Courier New";
 	font-size: 60px;
-	color: rgba(27, 18, 57);
+	color: rgb(27, 18, 57);
 	text-align: center;
 }
 
@@ -111,7 +166,48 @@ p{
 
 
 .box{
-	border: solid rgba(27, 18, 57);
+	border: solid rgb(27, 18, 57);
 	margin: 50px,50px,50px,50px;
 
 }
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 10px;
+    margin: 5px;
+    margin-right: 2px;
+    background-color: #ffffff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}s
+
+
+.post{
+    padding: 10px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.0470588) 0px 1px 0px 0px;
+    font-size: 15px;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+

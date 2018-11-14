@@ -1,29 +1,26 @@
-h3{
-	text-align: center;
-}
 body{
-
+    background-size:100%;
+}
+h2{
+	font-family: fantasy;
+	line-height: 70px;
+	font-size: 50px;
+	color: rgba(156, 191, 7);
 }
 .topcont{
     margin: auto;
     margin-left: 450px;
     width: 50%;
 }
-.botcont{
 
+.col{
+    display: grid;
     margin: auto;
-    margin-left: 300px;
-    width: 50%;
-}
-h3{
-font-family: 'Cairo', sans-serif;
+    width: 100%;    
+    grid-template-columns: 15% 60%; 
+    max-height: 100px;
 }
 
-p{
-		font-size: 220%;
-		font-family: Times New Roman;
-		color: rgba(27, 18, 57,1);
-}
 input[type=text],input[type=password],input[type=email],input[type=radio], select {
     width: 40%;
     padding: 12px 20px;
@@ -34,16 +31,24 @@ input[type=text],input[type=password],input[type=email],input[type=radio], selec
     box-sizing: border-box;
     align-content: center;
 }
-input[type=submit], input[type=button]{
-    width: 30%;
-    background-color: #0077b5;
-    font-family: Times New Roman;
-    font-size: 25px;
+
+input[type=submit] {
+    width: 40%;
+    background-color: rgba(27,18,57);
     color: black;
     padding: 14px 20px;
-    margin: 8px 0px;
+    margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     align-content: center;
+}
+
+label,h2	{
+	font-family: fantasy;
+	color: rgb(27, 18, 57);
+}
+.g{
+	font-family: fantasy;
+	color: rgba(27, 18, 57);
 }

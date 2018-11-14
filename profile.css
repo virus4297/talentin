@@ -1,35 +1,16 @@
 #navbar {
   overflow: hidden;
-  background-color: #333;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
 }
 
 .sticky {
+    overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
 .sticky + .content {
+    overflow: hidden;
   padding-top: 60px;
 }
 
@@ -63,6 +44,7 @@
 
 /* Style the topnav links */
 .topnav a {
+    overflow: hidden;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -103,3 +85,10 @@
         width: 100%;
     }
 }s
+
+
+.mbody{
+    pposition: absolute;
+    top: 80px;
+
+}
