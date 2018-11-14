@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Post | TalentIN</title>
+	<title>Profile NEWS NIGGA</title>
 
-	<link rel="stylesheet" type="text/css" href="post.css">
+	<link rel="stylesheet" type="text/css" href="profile.css">
 
 </head>
 <body>
 	<div class="topnav">
 		<div class="tnleft">
-		  <a href="index.html">Home</a>
-		  <a href="discover.html">Discover</a>
+		  <a href="index.php">Home</a>
+		  <a href="discover.php">Discover</a>
 		  <a href="#about">About</a>
 		  <a href="#contact">Contact</a>				
 		</div>
 		<div class="tnright">
-			<a href="login.php">Login</a>
+			<a href="profile.php">Post</a>
 		</div>
 	</div>
 
@@ -55,13 +55,13 @@
 			<img id="bnimg" src="logo.png">
 		</div>
 		<div class="bnmid">
-		  <a href="index.html">Home</a>
-		  <a href="discover.html">Discover</a>
+		  <a href="index.php">Home</a>
+		  <a href="discover.php">Discover</a>
 		  <a href="#about">About</a>
 		  <a href="#contact">Contact</a>
 		</div>
 		<div class="bnright">
-			<a href="profile.html">Post</a>
+			<a href="profile.php">Post</a>
 		</div>
 	</div>
 </body>

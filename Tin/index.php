@@ -11,8 +11,8 @@
 
 	<div class="topnav">
 		<div class="tnleft">
-		  <a href="index.html">Home</a>
-		  <a href="discover.html">Discover</a>
+		  <a href="index.php">Home</a>
+		  <a href="discover.php">Discover</a>
 		  <a href="#about">About</a>
 		  <a href="#contact">Contact</a>				
 		</div>
@@ -32,7 +32,7 @@
 		  <div class="column">
 			  	<div class="post">
 			    <h4>Post</h4>
-			    	<a href="profile.html"><div class="panel-heading">
+			    	<a href="profile.php"><div class="panel-heading">
 	                    <img class="[ img-circle pull-left ]" src="https://lh3.googleusercontent.com/-CxXg7_7ylq4/AAAAAAAAAAI/AAAAAAAAAQ8/LhCIKQC5Aq4/s46-c-k-no/photo.jpg"/>
 	                    <h6>Robert McIntosh</h6>
 	                    <div><span>Shared publicly</span> - <span>Jun 27, 2014</span></div>
@@ -58,7 +58,7 @@
 <div class="column">
 			  	<div class="post">
 			    <h4>Post</h4>
-			    	<a href="profile.html"><div class="panel-heading">
+			    	<a href="profile.php"><div class="panel-heading">
 	                    <img class="[ img-circle pull-left ]" src="https://lh3.googleusercontent.com/-CxXg7_7ylq4/AAAAAAAAAAI/AAAAAAAAAQ8/LhCIKQC5Aq4/s46-c-k-no/photo.jpg"/>
 	                    <h6>Robert McIntosh</h6>
 	                    <div><span>Shared publicly</span> - <span>Jun 27, 2014</span></div>
@@ -88,13 +88,13 @@
 			<img id="bnimg" src="logo.png">
 		</div>
 		<div class="bnmid">
-		  <a href="index.html">Home</a>
-		  <a href="discover.html">Discover</a>
+		  <a href="index.php">Home</a>
+		  <a href="discover.php">Discover</a>
 		  <a href="#about">About</a>
 		  <a href="#contact">Contact</a>
 		</div>
 		<div class="bnright">
-			<a href="post.html">Post</a>
+			<a href="post.php">Post</a>
 		</div>
 	</div>
 </body>

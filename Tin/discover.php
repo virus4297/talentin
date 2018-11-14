@@ -9,19 +9,19 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<title>Discover | TalentIN</title>
+	<title>Discover NEWS NIGGA</title>
 </head>
 <body>
 
 	<div class="topnav">
 		<div class="tnleft">
-		  <a href="index.html">Home</a>
-		  <a href="discover.html">Discover</a>
+		  <a href="index.php">Home</a>
+		  <a href="discover.php">Discover</a>
 		  <a href="#about">About</a>
 		  <a href="#contact">Contact</a>				
 		</div>
 		<div class="tnright">
-			<a href="login.php">Login</a>
+			<a href="profile.php">Post</a>
 		</div>
 	</div>
 
@@ -118,13 +118,13 @@
 			<img id="bnimg" src="logo.png">
 		</div>
 		<div class="bnmid">
-		  <a href="index.html">Home</a>
-		  <a href="discover.html">Discover</a>
+		  <a href="index.php">Home</a>
+		  <a href="discover.php">Discover</a>
 		  <a href="#about">About</a>
 		  <a href="#contact">Contact</a>
 		</div>
 		<div class="bnright">
-			<a href="post.html">Post</a>
+			<a href="profile.php">Post</a>
 		</div>
 	</div>
 </body>
