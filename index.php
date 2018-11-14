@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 
     $query= "SELECT * FROM reg where email='$username' and password = '$password'";
     
-    $result1=mysqli_query($connection,$query);
+    http://localhost
     if(mysqli_num_rows($result1) == 1){
         $_SESSION['email'] = $username;
         
